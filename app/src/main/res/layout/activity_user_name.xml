@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFFB9"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="18sp"
+    tools:context=".UserNameActivity">
+
+    <TextView
+        android:id="@+id/tvWelcomeMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What's your name?"
+        android:textColor="#EF6343"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:textColor="#EF6343"
+        android:textColorHint="#EF9B87"
+        android:backgroundTint="#EF6343"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Continue"
+        android:textColor="#F4F7BE"
+        android:backgroundTint="#754F44"
+        android:textAlignment="center"
+        android:textSize="22sp" />
+
+</LinearLayout>
